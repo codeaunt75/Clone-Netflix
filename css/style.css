@@ -1,0 +1,90 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+    --cinza-claro:#aaa;
+    --branco:#fff;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .logomarca{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+   
+}
+
+header nav a{
+    color: var(--cinza-claro);
+    text-decoration: none;
+    margin-right: 5px;
+}
+header nav a:hover{
+    color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-film{
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,0.50)100%) ,url(/Clone-Netflix/img/Corrente-do-bem.jpg);
+    height: 600px;
+    background-size:cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-film .sinopse{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.tittle{
+    font-size: 40px;
+    margin-top: 15%;
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding:15px 30px;
+    margin-right: 12px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 12px;
+}
